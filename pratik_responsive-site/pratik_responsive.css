@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 7px;
+}
+
+header {
+    height: 46rem;
+}
+
+body {
+    font-size: 2.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    color: black;
+    background-color: rgb(128, 128, 128, 0.3);
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+p {
+    padding: 1.6rem 0;
+
+
+}
+
+header .simpsons {
+    width: 100%;
+    height: 46rem;
+    position: absolute;
+    background-image: url(images_site/simpsons.webp);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -2;
+
+
+}
+
+.buton {
+    display: inline-block;
+    background-color: gray;
+    color: lightskyblue;
+    padding: 1.7rem 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid black;
+    transition: 2s;
+}
+
+.buton:hover {
+    background-color: lightskyblue;
+    color: gray;
+
+}
+
+#section-a {
+    background-color: #fff;
+    padding: 3.2rem 0;
+}
+
+#section-b {
+    padding: 2rem;
+}
+
+#section-b li {
+    margin-bottom: 1.5rem;
+}
+
+.col-content {
+    background-color: #fff;
+}
+
+#section-d .box:first-child {
+    background-color: darkslategray;
+
+}
+
+#section-d .box {
+    color: #fff;
+    padding: 4rem;
+    background-color: #333;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 4rem;
+
+}
+
+footer a {
+    color: chartreuse;
+}
+
+@media screen and (min-width:800px) {
+
+    html {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    html {
+
+        font-size: 11px;
+    }
+
+    #section-b li {
+
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+
+
+.box{
+    float: left;
+    width: 50%;
+
+}
+}
